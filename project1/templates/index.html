@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>News Headline Category Prediction</h1>
+    <form method="POST">
+        <label for="headline">Enter a news headline:</label>
+        <input type="text" id="headline" name="headline" required>
+        <button type="submit">Predict</button>
+    </form>
+    
+    {% if headline %}
+    <div class="result">
+        <p><strong>Input Headline:</strong> {{ headline }}</p>
+        <p><strong>Predicted Category:</strong> {{ predicted_category }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

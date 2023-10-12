@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Reset some default styles and set a background color */
+body {
+    font-family: Arial, sans-serif;
+    /*background-color: #f0f0f0;*/
+    margin: 0;
+    padding: 0;
+    background-image:url("1.jpg");
+    background-size: cover; /* This property scales the image to cover the entire body element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Style for the form container */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style for the text input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style for the result container */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
